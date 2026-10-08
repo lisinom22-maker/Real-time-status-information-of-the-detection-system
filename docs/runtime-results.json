@@ -1,0 +1,30 @@
+{
+  "scope": "real ROS2 same-process delivery + Qt event loop; not a desktop manipulation or cross-process DDS test",
+  "elapsed_seconds": 600.0074962709987,
+  "message_count": 1153,
+  "rates_hz": {
+    "1hz": 0.9997325044438986,
+    "2hz": 2.0001653635126995
+  },
+  "stale_seen": true,
+  "recovered": true,
+  "maximum_loop_gap_seconds": 0.019941507998737507,
+  "qt_platform": "offscreen",
+  "versions": {
+    "python": "3.10.12",
+    "psutil": "5.9.0",
+    "pyqt": "5.15.6",
+    "qt": "5.15.3"
+  },
+  "hostname": "lisinom-Legion-R7000P-ADR10",
+  "preview": "docs/images/offscreen-preview.png",
+  "last_sample": {
+    "cpu_percent": 0.30000001192092896,
+    "memory_percent": 27.399999618530273,
+    "memory_total": 14.912982940673828,
+    "memory_available": 10.820865631103516,
+    "net_sent": 0.0,
+    "net_recv": 0.0
+  },
+  "cleanup_seconds": 0.0023010080003587063
+}

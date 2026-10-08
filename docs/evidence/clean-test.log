@@ -1,0 +1,18 @@
+Starting >>> status_interfaces
+[Processing: status_interfaces]
+Finished <<< status_interfaces [30.0s]
+Starting >>> status_publisher
+--- stderr: status_publisher
+
+=============================== warnings summary ===============================
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+---
+[Processing: status_publisher]
+Finished <<< status_publisher [30.0s]
+
+Summary: 2 packages finished [1min 0s]
+  1 package had stderr output: status_publisher

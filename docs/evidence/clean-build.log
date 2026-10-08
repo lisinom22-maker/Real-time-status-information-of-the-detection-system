@@ -1,0 +1,8 @@
+Starting >>> status_interfaces
+[Processing: status_interfaces]
+[Processing: status_interfaces]
+Finished <<< status_interfaces [1min 2s]
+Starting >>> status_publisher
+Finished <<< status_publisher [0.59s]
+
+Summary: 2 packages finished [1min 2s]

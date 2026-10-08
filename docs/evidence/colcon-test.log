@@ -1,0 +1,41 @@
+Starting >>> status_interfaces
+Finished <<< status_interfaces [0.02s]
+Starting >>> status_publisher
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/lisinom/ros2-system-status/build/status_publisher/.pytest_cache
+rootdir: /home/lisinom/ros2-system-status/src/status_publisher, configfile: pytest.ini
+plugins: ament-pep257-0.12.15, ament-lint-0.12.15, ament-copyright-0.12.15, ament-flake8-0.12.15, ament-xmllint-0.12.15, launch-testing-1.0.15, launch-testing-ros-0.19.14, colcon-core-0.21.3, cov-3.0.0
+collected 59 items
+
+test/test_copyright.py .                                                 [  1%]
+test/test_flake8.py .                                                    [  3%]
+test/test_launch.py ..                                                   [  6%]
+test/test_metrics.py ....................                                [ 40%]
+test/test_pep257.py .                                                    [ 42%]
+test/test_publisher.py ..............                                    [ 66%]
+test/test_ros_integration.py .                                           [ 67%]
+
+=============================== warnings summary ===============================
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+test/test_status_gui.py ...................                              [100%]
+- generated xml file: /home/lisinom/ros2-system-status/build/status_publisher/pytest.xml -
+======================== 59 passed, 2 warnings in 3.81s ========================
+--- stderr: status_publisher
+
+=============================== warnings summary ===============================
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+---
+[Processing: status_publisher]
+Finished <<< status_publisher [30.0s]
+
+Summary: 2 packages finished [30.2s]
+  1 package had stderr output: status_publisher
